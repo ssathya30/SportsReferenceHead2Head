@@ -13,11 +13,11 @@ Diagonal cells (team vs itself) display "--" because this cell represents a team
 Teams are sorted alphabetically for consistent ordering.
 
 ## Why This Approach
-Data Structure: I used nested dictionaries from JSON because they provide O(1) lookup time for any team-opponent pair. This is more efficient than searching through lists.
+- I used nested dictionaries from JSON because they provide O(1) lookup time for any team-opponent pair. This is more efficient than searching through lists.
 
-Sorting: sorted(data.keys()) ensures consistent ordering regardless of how teams appear in the input file, making the output predictable and easy to read.
+- I wanted to sort the entries so I used sorted(data.keys()) which ensures consistent ordering regardless of how teams appear in the input file, making the output predictable and easy to read.
 
-String Formatting: Python provides F-strings with right-alignment through:(f"{value:>3}") which create uniform column widths, allowing for proper alignment regardless of whether the numbers are single or double digit.
+- Python provides F-strings with right-alignment through:(f"{value:>3}") which create uniform column widths, allowing for proper alignment regardless of whether the numbers are single or double digit.
 
 ## Data Processing Steps
 
