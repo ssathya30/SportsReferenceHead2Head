@@ -37,7 +37,7 @@ $ python head2head.py
 Make sure the json file is in the same directory as the script.
 
 ## Example Output
-
+```
 Tm  BRO BSN CHC CIN NYG PHI PIT STL
 -----------------------------------
 BRO  --  10  15  15  14  14  15  11 
@@ -50,3 +50,4 @@ PIT   7  10  14   9   7   9  --   6
 STL  11  13  12  14   9  14  16  -- 
 -----------------------------------
 Tm  BRO BSN CHC CIN NYG PHI PIT STL
+```
