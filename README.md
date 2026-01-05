@@ -34,7 +34,7 @@ Tested with the provided sample data containing 8 teams (BRO, BSN, CHC, CIN, NYG
 Verified the correct alignment of single and double-digit numbers and win totals display correctly.
 
 ## Usage
-$ python head2head.py
+$ python3 head2head.py
 
 Make sure the json file is in the same directory as the script.
 
